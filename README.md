@@ -1,5 +1,7 @@
 # frontend
 
+Refer to LPSim/ban-pick.
+
 ## Project setup
 ```
 yarn install
