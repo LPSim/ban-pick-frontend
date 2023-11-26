@@ -1,8 +1,9 @@
 // load name map and forbid list
-// import data from './deckCodeData.json';
-// import descData from './descData.json';
-const data = require('./deckCodeData.json');
-const descData = require('./descData.json');
+import data from './deckCodeData.json';
+import descData from './descData.json';
+import { Buffer } from 'buffer';
+// const data = require('./deckCodeData.json');
+// const descData = require('./descData.json');
 const nameMap = data.name_map;
 const forbidList = data.forbid_list;
 const nameToId = {};
@@ -72,7 +73,7 @@ class Trie {
 }
 
 let forbiddenTrie = new Trie();
-for (forbid of forbidList)
+for (let forbid of forbidList)
     forbiddenTrie.insert(forbid)
 
 
@@ -177,6 +178,7 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
     for (let i of cardStrL) {
         let number = 1;
         if (i.includes('*')) {
+            let numberStr = '';
             [i, numberStr] = i.split('*');
             number = parseInt(numberStr);
         }
@@ -200,14 +202,16 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
     throw new Error('In generating deck code: retry time exceeded');
 }
 
-while (true) {
-    const readline = require('readline-sync');
-    let input = readline.question('deck code: ');
-    if (input === '') {
-        break;
-    }
-    let deckStr = deckCodeToDeckStr(input);
-    console.log(deckStr);
-    let deckCode = deckStrToDeckCode(deckStr);
-    console.log(deckCode);
-}
+// while (true) {
+//     const readline = require('readline-sync');
+//     let input = readline.question('deck code: ');
+//     if (input === '') {
+//         break;
+//     }
+//     let deckStr = deckCodeToDeckStr(input);
+//     console.log(deckStr);
+//     let deckCode = deckStrToDeckCode(deckStr);
+//     console.log(deckCode);
+// }
+
+export { deckCodeToDeckStr, deckStrToDeckCode };
