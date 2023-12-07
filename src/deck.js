@@ -5,6 +5,9 @@ import { Buffer } from 'buffer';
 // const data = require('./deckCodeData.json');
 // const descData = require('./descData.json');
 const nameMap = data.name_map;
+for (let i = 0; i < nameMap.length; i++) {
+    nameMap[i] = nameMap[i].replace('charactor:', '');
+}
 const forbidList = data.forbid_list;
 const nameToId = {};
 
@@ -189,9 +192,15 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
         throw new Error('Too many characters or cards');
     }
 
-    for (let _ = 0; _ < maxRetryTime; _++) {
-        let checksum = Math.floor(Math.random() * 256);
-        cardStr = cardStr.sort(() => Math.random() - 0.5);
+    let shuffleChecksum = Array.from({length: 256}, (_, i) => i);
+    shuffleChecksum.sort(() => Math.random() - 0.5);
+
+    for (let i = 0; i < maxRetryTime; i++) {
+        let checksum = shuffleChecksum[i];
+        if (i >= 256) {
+          checksum = Math.floor(Math.random() * 256);
+          cardStr = cardStr.sort(() => Math.random() - 0.5);
+        }
         let nameList = charactorStr.concat(Array(3 - charactorStr.length).fill('')).concat(cardStr).concat(Array(30 - cardStr.length).fill(''));
         let deckCode = deckStrToDeckCodeOne(nameList, checksum);
         if (!forbiddenTrie.search(deckCode)) {
