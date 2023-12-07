@@ -35,7 +35,7 @@
       </div>
       <div v-else id="bp-page">
         <h1>房间：{{ room_id }}&nbsp;&nbsp;你是玩家{{ player_id }}</h1>
-        <div id="countdown-div" :style="countdown < 60 ? 'color: #C00' : ''">
+        <div id="countdown-div" :style="countdown < dangerTime ? 'color: #C00' : ''">
           <h2 v-if="countdown > 0">房间到期时间：{{ parseInt(countdown) }}秒</h2>
           <h2 v-else>房间已到期！建议删除房间并重进。</h2>
           <p>房间如果到期，将随时可能被服务器回收。</p>
@@ -116,6 +116,7 @@ export default {
       serverURL: '',
       refreshInterval: 1000,
       refreshId: null,
+      dangerTime: 300,
 
       // bp data
       countdown: 0,
