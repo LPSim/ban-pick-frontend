@@ -359,7 +359,7 @@ export default {
           for (let j = 0; j < deck_str_split.length; j ++ ) {
             let line = deck_str_split[j];
             if (line.startsWith('charactor')) {
-              this.selects[i].charactor.push(line.split(':')[1]);
+              this.selects[i].charactor.push(line.replace('charactor:', ''));
             }
             else {
               this.selects[i].card.push(line);

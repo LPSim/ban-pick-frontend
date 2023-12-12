@@ -56,7 +56,7 @@ for (let i of preDefinedRawData) {
     card_names = card_names.map(x => cnameToEname[x]);
     if (preDefinedData[charactor_name]) throw new Error('charactor name exist: ' + charactor_name);
     // add two talent cards
-    let talent_type = 'TALENT_' + charactor_name.split(':')[1] + '/';
+    let talent_type = 'TALENT_' + charactor_name.replace('charactor:', '') + '/';
     for (let k in descData) {
         if (k == 'TALENT_Keqing/Lightning Stiletto') continue;
         if (k.startsWith(talent_type)) {
