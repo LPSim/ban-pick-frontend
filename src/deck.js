@@ -1,13 +1,9 @@
 // load name map and forbid list
 import data from './deckCodeData.json';
 import descData from './descData.json';
-import { Buffer } from 'buffer';
 // const data = require('./deckCodeData.json');
 // const descData = require('./descData.json');
 const nameMap = data.name_map;
-for (let i = 0; i < nameMap.length; i++) {
-    nameMap[i] = nameMap[i].replace('charactor:', '');
-}
 const forbidList = data.forbid_list;
 const nameToId = {};
 
@@ -82,10 +78,28 @@ for (let forbid of forbidList)
 
 // mark charactors, if in the list, it is a charactor card.
 let charactorsIdx = Array.from({length: 60}, (_, i) => i);
+let newCharactorsIdx = [];
+for (let i = 0; i < nameMap.length; i++) {
+    if (nameMap[i].startsWith('charactor:')) {
+        newCharactorsIdx.push(i);
+        nameMap[i] = nameMap[i].slice(10);
+    }
+}
+// compatible with old version, if no charactor marked in name_map, use default charactors
+if (newCharactorsIdx.length > 0) charactorsIdx = newCharactorsIdx;
+console.log(charactorsIdx);
+for (let i = 0; i < nameMap.length; i++) {
+    nameMap[i] = nameMap[i].replace('charactor:', '');
+}
+
 
 function deckCodeToDeckStr(deckCode, version = null, sort = true) {
     // Convert the base64 deck code to deck str. If version is set, add default_version.
-    let binary = Buffer.from(deckCode, 'base64');
+    let binaryStr = atob(deckCode);
+    let binary = new Uint8Array(binaryStr.length);
+    for (let i = 0; i < binaryStr.length; i++) {
+        binary[i] = binaryStr.charCodeAt(i);
+    }
     let bb = [];
     for (let b of binary) {
         bb.push((256 + b - binary[binary.length - 1]) % 256);
@@ -109,7 +123,7 @@ function deckCodeToDeckStr(deckCode, version = null, sort = true) {
         results.push(`default_version:${version}`);
     }
     for (let x of decode) {
-        if (x > 0) {
+        if (x > 0 && x <= nameMap.length) {
             if (charactorsIdx.includes(x - 1)) {
                 results_charactor.push(`charactor:${nameMap[x - 1]}`);
             } else {
@@ -151,7 +165,7 @@ function deckStrToDeckCodeOne(nameList, checksum) {
     uint = uint.flat();
     uint.push(0);
     uint = uint.map(x => (x + checksum) % 256);
-    let res = Buffer.from(uint).toString('base64');
+    let res = btoa(String.fromCharCode.apply(null, uint));
     return res;
 }
 
@@ -180,8 +194,8 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
 
     for (let i of cardStrL) {
         let number = 1;
+        let numberStr = '';
         if (i.includes('*')) {
-            let numberStr = '';
             [i, numberStr] = i.split('*');
             number = parseInt(numberStr);
         }
@@ -211,17 +225,5 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
 
     throw new Error('In generating deck code: retry time exceeded');
 }
-
-// while (true) {
-//     const readline = require('readline-sync');
-//     let input = readline.question('deck code: ');
-//     if (input === '') {
-//         break;
-//     }
-//     let deckStr = deckCodeToDeckStr(input);
-//     console.log(deckStr);
-//     let deckCode = deckStrToDeckCode(deckStr);
-//     console.log(deckCode);
-// }
 
 export { deckCodeToDeckStr, deckStrToDeckCode };
