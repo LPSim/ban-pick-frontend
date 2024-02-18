@@ -450,6 +450,23 @@ export default {
       if ((data.card).length >= 30) {
         // already full, skip
       }
+      // check if some card appears more than 2 times. if so, remove them
+      let card_count = {};
+      for (let i = 0; i < data.card.length; i ++ ) {
+        if (card_count[data.card[i]] == undefined) {
+          card_count[data.card[i]] = 1;
+        }
+        else {
+          card_count[data.card[i]] = Math.min(2, card_count[data.card[i]] + 1);
+        }
+      }
+      data.card = [];
+      for (let i in card_count) {
+        for (let j = 0; j < card_count[i]; j ++ ) {
+          data.card.push(i);
+        }
+      }
+      console.log(data.card);
       let cards = JSON.parse(JSON.stringify(this.availableCards));
       cards = cards.concat(cards);
       cards = this.shuffle(cards);
