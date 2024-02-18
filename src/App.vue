@@ -45,9 +45,9 @@
         <div id="bp-page-main">
           <div v-for="sel, pid in selects" :key="pid" :class="'player-div player' + pid + ' ' + (next_bp_command.length > 0 ? (((pid == parseInt(next_bp_command[0][0]))) ? 'player-highlight' : '') : '')">
             <h4>玩家{{ pid }}</h4>
-            <div class="charactor-div">
-              <div v-for="charactor, cid in sel.charactor" :key="cid">
-                <img :src="getURL('charactor', charactor)" :alt="charactor" @click="updateDesc(charactor)">
+            <div class="character-div">
+              <div v-for="character, cid in sel.character" :key="cid">
+                <img :src="getURL('character', character)" :alt="character" @click="updateDesc(character)">
               </div>
             </div>
             <div class="card-div">
@@ -61,8 +61,8 @@
           </div>
           <div id="bp-center-div" :class="!your_turn ? '' : 'select-shining'">
             <div id="bp-image-div">
-              <div v-for="charactor, index in bp_table" :key="index" @click="selectOne(index)" :class="getBPClass(index)" :style="getBPImageSize()">
-                <img :src="getURL('charactor', charactor)" :alt="charactor">
+              <div v-for="character, index in bp_table" :key="index" @click="selectOne(index)" :class="getBPClass(index)" :style="getBPImageSize()">
+                <img :src="getURL('character', character)" :alt="character">
               </div>
             </div>
             <div id="bp-card-desc-div">
@@ -135,13 +135,13 @@ export default {
       next_bp_command: [],
       selects: [
         {
-          charactor: [
+          character: [
           ],
           card: [
           ],
         },
         {
-          charactor: [
+          character: [
           ],
           card: [
           ],
@@ -171,11 +171,11 @@ export default {
     //   bp_table: [],
     //   selects: [
     //     {
-    //       charactor: [],
+    //       character: [],
     //       card: [],
     //     },
     //     {
-    //       charactor: [],
+    //       character: [],
     //       card: [],
     //     }
     //   ],
@@ -188,7 +188,7 @@ export default {
     for (let key in this.descData) {
       if (
         key.startsWith('TEAM_STATUS/') 
-        || key.startsWith('CHARACTOR_STATUS/')
+        || key.startsWith('CHARACTER_STATUS/')
         || key.startsWith('SUMMON/')
       ) continue;
       let name = this.descData[key].names['en-US'];
@@ -229,12 +229,12 @@ export default {
         && !key.startsWith('TALENT') 
         && !key.startsWith('WEAPON') 
         && !key.startsWith('ARTIFACT') 
-        && !key.startsWith('CHARACTOR/')
+        && !key.startsWith('CHARACTER/')
       );
     },
     getURL(type, name) {
-      if (type == 'charactor') {
-        type = ['CHARACTOR'];
+      if (type == 'character') {
+        type = ['CHARACTER'];
       } else if (type == 'card') {
         type = ['CARD', 'SUPPORT', 'WEAPON', 'ARTIFACT', 'ARCANE', 'TALENT'];
       }
@@ -242,11 +242,12 @@ export default {
       let ret = this.descData[key]['image_path'];
       if (
         this.isHideCard(key)
-      ) ret = 'cardface/Championship_02.png'; // if not equip or charactor, hide it
+      ) ret = 'cardface/Championship_02.png'; // if not equip or character, hide it
       if (ret.startsWith('http')) {
         return ret;
       }
-      return 'https://static.zyr17.cn/GITCG-frontend/images/' + ret;
+      let suffix = '?imageMogr2/thumbnail/140x';
+      return 'https://static.zyr17.cn/lpsim-images/' + ret + suffix;
     },
     updateDesc(card_name) {
       let descKey = this.nameToDescKey[card_name];
@@ -264,8 +265,8 @@ export default {
         throw new Error('No version found');
       }
       this.text_desc = descData.names[this.language];
-      if (descKey.startsWith('CHARACTOR/')) {
-        this.card_desc = this.preDefinedData['charactor:' + card_name];
+      if (descKey.startsWith('CHARACTER/')) {
+        this.card_desc = this.preDefinedData['character:' + card_name];
       }
       else {
         this.text_desc += ' ' + descData.descs[version][this.language];
@@ -313,7 +314,7 @@ export default {
       let data = {
         room_id: this.room_id,
         command: this.bp_command,
-        charactor_num: this.preDefinedList.length
+        character_num: this.preDefinedList.length
       };
       const xhr = new XMLHttpRequest();
       xhr.onreadystatechange = () => {
@@ -342,24 +343,24 @@ export default {
       this.done_bp_command = data.done_command;
       this.next_bp_command = data.next_command;
       this.countdown = data.time - Math.floor(Date.now() / 1000);
-      this.bp_table = data.bp_list.map(x => this.preDefinedList[x].replace('charactor:', ''));
+      this.bp_table = data.bp_list.map(x => this.preDefinedList[x].replace('character:', ''));
       this.bp_status = data.bp_status;
       for (let i = 0; i < 2; i ++ ) {
-        this.selects[i].charactor = data.players[i].map(x => this.preDefinedList[x].replace('charactor:', ''));
+        this.selects[i].character = data.players[i].map(x => this.preDefinedList[x].replace('character:', ''));
         this.selects[i].card = [];
-        for (let j = 0; j < this.selects[i].charactor.length; j ++ ) {
-          this.selects[i].card = this.selects[i].card.concat(this.preDefinedData['charactor:' + this.selects[i].charactor[j]]);
+        for (let j = 0; j < this.selects[i].character.length; j ++ ) {
+          this.selects[i].card = this.selects[i].card.concat(this.preDefinedData['character:' + this.selects[i].character[j]]);
         }
         if (data.results[i] != '') {
           this.codes[i] = data.results[i];
           let deck_str = deckCodeToDeckStr(data.results[i]);
           this.selects[i].card = [];
-          this.selects[i].charactor = [];
+          this.selects[i].character = [];
           let deck_str_split = deck_str.trim().split('\n');
           for (let j = 0; j < deck_str_split.length; j ++ ) {
             let line = deck_str_split[j];
-            if (line.startsWith('charactor')) {
-              this.selects[i].charactor.push(line.replace('charactor:', ''));
+            if (line.startsWith('character')) {
+              this.selects[i].character.push(line.replace('character:', ''));
             }
             else {
               this.selects[i].card.push(line);
@@ -442,8 +443,8 @@ export default {
     },
     prepareResult() {
       let data = this.selects[this.player_id];
-      if ((data.charactor).length > 3) {
-        // too many charactors, skip
+      if ((data.character).length > 3) {
+        // too many characters, skip
         return;
       }
       if ((data.card).length >= 30) {
@@ -457,8 +458,8 @@ export default {
         data.card.push(cards[i]);
       }
       let deck_str = '';
-      for (let i = 0; i < data.charactor.length; i ++ ) {
-        deck_str += 'charactor:' + data.charactor[i] + '\n';
+      for (let i = 0; i < data.character.length; i ++ ) {
+        deck_str += 'character:' + data.character[i] + '\n';
       }
       for (let i = 0; i < data.card.length; i ++ ) {
         deck_str += data.card[i] + '\n';
@@ -687,18 +688,18 @@ button {
   overflow-y: scroll;
 }
 
-.charactor-div {
+.character-div {
   margin-bottom: 5%;
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
 }
-.charactor-div > * {
+.character-div > * {
   width: 30%;
   margin-right: 3%;
 }
 
-.charactor-div img {
+.character-div img {
   width: 100%;
 }
 

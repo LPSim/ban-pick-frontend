@@ -14,8 +14,8 @@ for (let k in descData) {
         let id = i.id;
         let name = i.names['en-US'];
         if (id < 100000) {
-            // is charactor
-            name = 'charactor:' + name;
+            // is character
+            name = 'character:' + name;
         }
         nameToId[name] = id;
     }
@@ -76,20 +76,20 @@ for (let forbid of forbidList)
     forbiddenTrie.insert(forbid)
 
 
-// mark charactors, if in the list, it is a charactor card.
-let charactorsIdx = Array.from({length: 60}, (_, i) => i);
-let newCharactorsIdx = [];
+// mark characters, if in the list, it is a character card.
+let charactersIdx = Array.from({length: 60}, (_, i) => i);
+let newCharactersIdx = [];
 for (let i = 0; i < nameMap.length; i++) {
-    if (nameMap[i].startsWith('charactor:')) {
-        newCharactorsIdx.push(i);
+    if (nameMap[i].startsWith('character:')) {
+        newCharactersIdx.push(i);
         nameMap[i] = nameMap[i].slice(10);
     }
 }
-// compatible with old version, if no charactor marked in name_map, use default charactors
-if (newCharactorsIdx.length > 0) charactorsIdx = newCharactorsIdx;
-console.log(charactorsIdx);
+// compatible with old version, if no character marked in name_map, use default characters
+if (newCharactersIdx.length > 0) charactersIdx = newCharactersIdx;
+console.log(charactersIdx);
 for (let i = 0; i < nameMap.length; i++) {
-    nameMap[i] = nameMap[i].replace('charactor:', '');
+    nameMap[i] = nameMap[i].replace('character:', '');
 }
 
 
@@ -116,7 +116,7 @@ function deckCodeToDeckStr(deckCode, version = null, sort = true) {
         decode.push(parseInt(res.slice(i, i + 12), 2));
     }
     decode = decode.slice(0, -1);
-    let results_charactor = [];
+    let results_character = [];
     let results_card = [];
     let results = [];
     if (version !== null) {
@@ -124,8 +124,8 @@ function deckCodeToDeckStr(deckCode, version = null, sort = true) {
     }
     for (let x of decode) {
         if (x > 0 && x <= nameMap.length) {
-            if (charactorsIdx.includes(x - 1)) {
-                results_charactor.push(`charactor:${nameMap[x - 1]}`);
+            if (charactersIdx.includes(x - 1)) {
+                results_character.push(`character:${nameMap[x - 1]}`);
             } else {
                 results_card.push(nameMap[x - 1]);
             }
@@ -136,7 +136,7 @@ function deckCodeToDeckStr(deckCode, version = null, sort = true) {
             return nameToId[a] - nameToId[b];
         });
     }
-    results.push(...results_charactor);
+    results.push(...results_character);
     results.push(...results_card);
     return results.join('\n');
 }
@@ -177,19 +177,19 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
     deckStrList = deckStrList.filter(x => !x.startsWith('default_version:'));
     // remove version mark
     deckStrList = deckStrList.map(x => x.split('@')[0]);
-    let charactorStrL = deckStrList.filter(x => x.startsWith('charactor:')).map(x => x.slice(10));
-    let cardStrL = deckStrList.filter(x => !x.startsWith('charactor:'));
-    let charactorStr = [];
+    let characterStrL = deckStrList.filter(x => x.startsWith('character:')).map(x => x.slice(10));
+    let cardStrL = deckStrList.filter(x => !x.startsWith('character:'));
+    let characterStr = [];
     let cardStr = [];
 
-    for (let i of charactorStrL) {
+    for (let i of characterStrL) {
         let number = 1;
         let numberStr = '';
         if (i.includes('*')) {
             [i, numberStr] = i.split('*');
             number = parseInt(numberStr);
         }
-        charactorStr = charactorStr.concat(Array(number).fill(i));
+        characterStr = characterStr.concat(Array(number).fill(i));
     }
 
     for (let i of cardStrL) {
@@ -202,7 +202,7 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
         cardStr = cardStr.concat(Array(number).fill(i));
     }
 
-    if (charactorStr.length > 3 || cardStr.length > 30) {
+    if (characterStr.length > 3 || cardStr.length > 30) {
         throw new Error('Too many characters or cards');
     }
 
@@ -215,7 +215,7 @@ function deckStrToDeckCode(deckStr, maxRetryTime = 10000) {
           checksum = Math.floor(Math.random() * 256);
           cardStr = cardStr.sort(() => Math.random() - 0.5);
         }
-        let nameList = charactorStr.concat(Array(3 - charactorStr.length).fill('')).concat(cardStr).concat(Array(30 - cardStr.length).fill(''));
+        let nameList = characterStr.concat(Array(3 - characterStr.length).fill('')).concat(cardStr).concat(Array(30 - cardStr.length).fill(''));
         let deckCode = deckStrToDeckCodeOne(nameList, checksum);
         let deckCodeLower = deckCode.toLowerCase().replace('+', '');
         if (!forbiddenTrie.search(deckCodeLower)) {
