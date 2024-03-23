@@ -41,7 +41,7 @@ let preDefinedData = {};
 // all keys in predefined data, and will sort
 let preDefinedList = [];
 for (let i of preDefinedRawData) {
-    let line = i.trim().split(' ');
+    let line = i;
     let character_name = line[0];
     let card_names = line.slice(1);
     if (card_names.length < 1) {

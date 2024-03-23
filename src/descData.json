@@ -4306,8 +4306,7 @@
                 "zh-CN": "本回合中，目标角色下一次元素爆发造成的伤害+3。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character's next Elemental Burst deals +3 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Aegis of Abyssal Flame": {
         "names": {
@@ -4319,8 +4318,7 @@
                 "zh-CN": "为所附属角色提供3点护盾。\n此护盾耗尽前：所附属角色造成的火元素伤害+1。",
                 "en-US": "Grant the character to which this is attached 3 Shield points. Before this Shield is depleted, the character to which this is attached will deal +1 Pyro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Blood Blossom": {
         "names": {
@@ -4332,8 +4330,7 @@
                 "zh-CN": "结束阶段：对所附属角色造成1点火元素伤害。\n可用次数：1",
                 "en-US": "End Phase: Deal 1 Pyro DMG to the character to which this is attached."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Brilliance": {
         "names": {
@@ -4358,8 +4355,7 @@
                 "zh-CN": "本回合中，所有我方角色下次受到的伤害-2。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character takes -2 DMG the next time."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Ceremonial Garment": {
         "names": {
@@ -4397,8 +4393,7 @@
                 "zh-CN": "此状态初始具有2层「引雷」；重复附属时，叠加1层「引雷」。「引雷」最多可以叠加到4层。\n结束阶段：叠加1层「引雷」。\n\n所附属角色受到苍雷伤害时：移除此状态，每层「引雷」使伤害+1。",
                 "en-US": "This status starts with 2 stacks of Conductive. When attached repeatedly, Conductive stack +1. Conductive can be stacked to a maximum of 4 stacks. End Phase: Accumulate 1 stack of Conductive. When the character attached with Conductive takes DMG from Violet Arc: Remove this status and DMG +1 for each stack of Conductive. "
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Crowfeather Cover": {
         "names": {
@@ -4410,8 +4405,7 @@
                 "zh-CN": "所附属角色元素战技和元素爆发造成的伤害+1。\n可用次数：2",
                 "en-US": "The character with this attached deals +1 Elemental Skill and Elemental Burst DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Cryo Elemental Infusion_ayaka_talent": {
         "names": {
@@ -4423,8 +4417,7 @@
                 "zh-CN": "所附属角色造成的物理伤害变为冰元素伤害，使所附属角色造成的冰元素伤害+1。\n持续回合：2",
                 "en-US": "When the character to which it is attached to deals Physical Damage, it will be turned into Cryo DMG, and Cryo DMG dealt by the character +1."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Cryo Elemental Infusion": {
         "names": {
@@ -4436,8 +4429,7 @@
                 "zh-CN": "所附属角色造成的物理伤害变为冰元素伤害。\n（持续到回合结束）",
                 "en-US": "When the character to which it is attached to deals Physical Damage, it will be turned into CRYO DMG. "
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Electro Crystal Core": {
         "names": {
@@ -4449,8 +4441,7 @@
                 "zh-CN": "所附属角色被击倒时：移除此效果，使角色免于被击倒，并治疗该角色到1点生命值。",
                 "en-US": "When the character to which this is attached would be defeated: Remove this effect, ensure the character will not be defeated, and heal them to _HEAL_ HP."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Electro Elemental Infusion_keqing_talent": {
         "names": {
@@ -4462,8 +4453,7 @@
                 "zh-CN": "所附属角色造成的物理伤害变为雷元素伤害，使所附属角色造成的雷元素伤害+1。\n持续回合：2",
                 "en-US": "When the character to which it is attached to deals Physical Damage, it will be turned into ELECTRO DMG, and Electro DMG dealt by the character +1."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Electro Elemental Infusion": {
         "names": {
@@ -4475,8 +4465,7 @@
                 "zh-CN": "所附属角色造成的物理伤害变为雷元素伤害。\n持续回合：2",
                 "en-US": "When the character to which it is attached to deals Physical Damage, it will be turned into ELECTRO DMG. "
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Elemental Resonance: Fervent Flames": {
         "names": {
@@ -4488,8 +4477,7 @@
                 "zh-CN": "本回合中，我方当前出战角色下一次引发火元素相关反应时，造成的伤害+3。（牌组包含至少2个火元素角色，才能加入牌组）",
                 "en-US": "During this round, the next instance of Pyro-Related Reactions your character triggers deals +3 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Elemental Resonance: Shattering Ice": {
         "names": {
@@ -4501,8 +4489,7 @@
                 "zh-CN": "本回合中，我方当前出战角色下一次造成的伤害+2。（牌组包含至少2个冰元素角色，才能加入牌组）",
                 "en-US": "During this Round, your character will deal +2 DMG for the next instance."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Explosive Spark": {
         "names": {
@@ -4514,8 +4501,7 @@
                 "zh-CN": "所附属角色进行重击时：少花费1个火元素，并且伤害+1。\n可用次数：1",
                 "en-US": "When the character to which this is attached to uses a Charged Attack: Spend 1 less Pyro Die and deal +1 DMG. Usage(s): 2"
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Fiery Rebirth": {
         "names": {
@@ -4527,8 +4513,7 @@
                 "zh-CN": "所附属角色被击倒时：移除此效果，使角色免于被击倒，并治疗该角色到3点生命值。",
                 "en-US": "When the character to which this is attached would be defeated: Remove this effect, ensure the character will not be defeated, and heal them to _HEAL_ HP."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Frozen": {
         "names": {
@@ -4540,8 +4525,7 @@
                 "zh-CN": "无法使用技能。（持续到回合结束）\n所附属角色受到物理伤害或火属性伤害时：移除此效果，并使该角色受到的伤害+2。",
                 "en-US": "Character cannot use skills. (Lasts until the end of this Round) When this character receives Pyro DMG or Physical DMG, removes this effect and increases DMG taken by 2."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Grimheart": {
         "names": {
@@ -4557,8 +4541,7 @@
                 "zh-CN": "所附属的角色使用冰潮的涡旋时：移除此状态，使本次伤害+3。",
                 "en-US": "After the character to which this is attached uses Icetide Vortex: Remove this status, DMG +3 for this instance."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Heavy Strike": {
         "names": {
@@ -4570,8 +4553,7 @@
                 "zh-CN": "本回合中，当前我方出战角色下次「普通攻击」造成的伤害+1。此次「普通攻击」为重击时：伤害额外+1。",
                 "en-US": "During this round, your current active character's next Normal Attack deals +1 DMG. When this Normal Attack is a Charged Attack: Deal +1 additional DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Heron Shield": {
         "names": {
@@ -4583,8 +4565,7 @@
                 "zh-CN": "本角色将在下次行动时，直接使用技能：苍鹭震击。\n准备技能期间：提供2点护盾，保护所附属角色。",
                 "en-US": "The next time this character acts, they will immediately use the Skill Heron Strike. While preparing this Skill: Grant 2 Shield points to the character to which this is attached."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Incineration Drive": {
         "names": {
@@ -4596,8 +4577,7 @@
                 "zh-CN": "造成3点火元素伤害。",
                 "en-US": "Prepare Skill Incineration Drive. "
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Jueyun Guoba": {
         "names": {
@@ -4609,8 +4589,7 @@
                 "zh-CN": "本回合中，目标角色下一次普通攻击造成的伤害+1。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character's next Normal Attack deals +1 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/King's Squire": {
         "names": {
@@ -4622,8 +4601,7 @@
                 "zh-CN": "角色造成的伤害+1。入场时：所附属角色在本回合中，下次使用「元素战技」或装备「天赋」时少花费2个元素骰。（「弓」角色才能装备。角色最多装备1件「武器」）",
                 "en-US": "The character to which this is attached will spend 2 less Elemental Dice next time they use an Elemental Skill or equip a Talent card."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Lingering Aeon": {
         "names": {
@@ -4648,8 +4626,7 @@
                 "zh-CN": "角色造成的伤害+1入场时：队伍中每有一名「璃月」角色，此牌就为附属的角色提供1点护盾。（最多3点）",
                 "en-US": "Grants 3 Shield point to defend your active character. "
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Lotus Flower Crisp": {
         "names": {
@@ -4661,8 +4638,7 @@
                 "zh-CN": "本回合中，目标角色下次受到的伤害-3。（每回合中每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character takes -3 DMG the next time."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Melee Stance": {
         "names": {
@@ -4691,8 +4667,7 @@
                 "zh-CN": "所附属角色进行下落攻击时：造成的物理伤害变为风元素伤害，且伤害+1。\n角色使用技能后：移除此效果。",
                 "en-US": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes Anemo DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Midare Ranzan: Cryo": {
         "names": {
@@ -4704,8 +4679,7 @@
                 "zh-CN": "所附属角色进行下落攻击时：造成的物理伤害变为风元素伤害，且伤害+1。\n角色使用技能后：移除此效果。",
                 "en-US": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes Cryo DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Midare Ranzan: Electro": {
         "names": {
@@ -4717,8 +4691,7 @@
                 "zh-CN": "所附属角色进行下落攻击时：造成的物理伤害变为雷元素伤害，且伤害+1。\n角色使用技能后：移除此效果。",
                 "en-US": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes Electro DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Midare Ranzan: Hydro": {
         "names": {
@@ -4730,8 +4703,7 @@
                 "zh-CN": "所附属角色进行下落攻击时：造成的物理伤害变为水元素伤害，且伤害+1。\n角色使用技能后：移除此效果。",
                 "en-US": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes Hydro DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Midare Ranzan: New": {
         "names": {
@@ -4743,8 +4715,7 @@
                 "zh-CN": "所附属角色进行下落攻击时：造成的物理伤害变为？？元素伤害，且伤害+1。\n角色使用技能后：移除此效果。",
                 "en-US": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes _ELEMENT_ DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Midare Ranzan: Pyro": {
         "names": {
@@ -4756,8 +4727,7 @@
                 "zh-CN": "所附属角色进行下落攻击时：造成的物理伤害变为火元素伤害，且伤害+1。\n角色使用技能后：移除此效果。",
                 "en-US": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes Pyro DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Minty Meat Rolls": {
         "names": {
@@ -4773,8 +4743,7 @@
                 "zh-CN": "目标角色在本回合结束前，之后三次普通攻击都少花费1无色元素。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character's next 3 Normal Attacks cost less 1 Unaligned Element."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Moonpiercer": {
         "names": {
@@ -4786,8 +4755,7 @@
                 "zh-CN": "角色造成的伤害+1。入场时：所附属角色在本回合中，下次使用「元素战技」或装备「天赋」时少花费2个元素骰。（「长柄武器」角色才能装备。角色最多装备1件「武器」）",
                 "en-US": "The character to which this is attached will spend 2 less Elemental Dice next time they use an Elemental Skill or equip a Talent card."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Mushroom Pizza": {
         "names": {
@@ -4799,8 +4767,7 @@
                 "zh-CN": "治疗目标角色1点，两回合内结束阶段再治疗此角色1点。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "End Phase: Heal this character for 1 HP. Usage(s): 2"
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Niwabi Enshou": {
         "names": {
@@ -4812,8 +4779,7 @@
                 "zh-CN": "所附属角色普通攻击伤害+1，造成的物理伤害变为火元素伤害。\n可用次数：2",
                 "en-US": "The character to which this is attached has their Normal Attacks deal +1 DMG, and their Physical DMG dealt converted to Pyro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Northern Smoked Chicken": {
         "names": {
@@ -4825,8 +4791,7 @@
                 "zh-CN": "本回合中，目标角色下一次普通攻击少花费1无色元素。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character's next Normal Attack cost less 1 Unaligned Element."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Pactsworn Pathclearer": {
         "names": {
@@ -4851,8 +4816,7 @@
                 "zh-CN": "所附属角色造成的物理伤害变为火元素伤害，且角色造成的火元素伤害+1。\n所附属角色进行重击时：目标角色附属血梅香。\n\n持续回合：2",
                 "en-US": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG, and they will deal +1 Pyro DMG. When the character to which this is attached uses a Charged Attack: Apply Blood Blossom to target character."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Petrification": {
         "names": {
@@ -4877,8 +4841,7 @@
                 "zh-CN": "所附属角色造成的物理伤害，变为火元素伤害。\n持续回合：2",
                 "en-US": "When the character to which it is attached to deals Physical Damage, it will be turned into PYRO DMG. "
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Radical Vitality_talent": {
         "names": {
@@ -4950,8 +4913,7 @@
                 "zh-CN": "所附属角色受到的水元素伤害+1，并且会使所附属角色切换到其他角色时元素骰费用+1。\n持续回合：2\n\n（同一方场上最多存在一个此状态）",
                 "en-US": "The character to which this is attached takes +1 Hydro DMG. The Elemental Dice Cost of switching from this character to another character is increased by 1."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Refraction": {
         "names": {
@@ -4963,8 +4925,7 @@
                 "zh-CN": "所附属角色受到的水元素伤害+1。\n持续回合：2\n\n（同一方场上最多存在一个此状态）",
                 "en-US": "The character to which this is attached takes +1 Hydro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Riptide": {
         "names": {
@@ -4993,8 +4954,7 @@
                 "zh-CN": "（需准备1个行动轮）\n造成3点雷元素伤害。",
                 "en-US": "Prepare Skill Rock-Paper-Scissors Combo: Paper."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Rock-Paper-Scissors Combo: Scissors": {
         "names": {
@@ -5006,8 +4966,7 @@
                 "zh-CN": "（需准备1个行动轮）\n造成2点雷元素伤害，然后准备猜拳三连击·布。",
                 "en-US": "Prepare Skill Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Sashimi Platter": {
         "names": {
@@ -5019,8 +4978,7 @@
                 "zh-CN": "目标角色在本回合结束前，「普通攻击」造成的伤害+1。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, the target character's Normal Attacks deals +1 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Satiated": {
         "names": {
@@ -5032,8 +4990,7 @@
                 "zh-CN": "目标角色在本回合结束前无法食用「料理」。",
                 "en-US": "You cannot consume more Food this Round"
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Scarlet Seal": {
         "names": {
@@ -5049,8 +5006,7 @@
                 "zh-CN": "角色进行重击时：造成的伤害+2。\n可用次数：1 （可叠加，最多叠加到2次）",
                 "en-US": "When the character uses a Charged Attack: Damage dealt +2. (Can stack. Max 2 stacks.)"
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Seed of Skandha": {
         "names": {
@@ -5075,8 +5031,7 @@
                 "zh-CN": "所附属角色受到的伤害-1，造成的伤害+1。\n可用次数：2",
                 "en-US": "The character to which this is attached takes -1 DMG and deals +1 DMG. Usage(s): 2"
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Stonehide": {
         "names": {
@@ -5088,8 +5043,7 @@
                 "zh-CN": "角色造成的物理伤害变为岩元素伤害。\n每回合1次：角色造成的伤害+1。\n\n角色所附属的「岩盔」被移除后：也移除此状态。",
                 "en-US": "When the character to which this is attached receives DMG: Decrease DMG taken by 1. When Geo DMG is decreased, consume 1 additional Usage(s).Stone Force: The character to which this is attached has their Physical DMG converted to Geo DMG. Once per Round: The character deals +1 DMG. Once the Stonehide attached to the character is removed, this status will be removed alongside it."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Superlative Superstrength": {
         "names": {
@@ -5101,8 +5055,7 @@
                 "zh-CN": "所附属角色进行重击时：造成的伤害+1，如果可用次数至少为2，则少花费1个无色元素。\n可用次数：1（可叠加，最多叠加到3次）",
                 "en-US": "When the character to which this is attached to uses a Charged Attack: Deal +1 DMG. If the Usage(s) are no less than 2, expend 1 less Unaligned Element. Usage(s): 1 (Can stack. Max 3 stacks)"
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Sweeping Time": {
         "names": {
@@ -5127,8 +5080,7 @@
                 "zh-CN": "所附属角色普通攻击造成的伤害+1，造成的物理伤害变为水元素伤害。\n可用次数：2",
                 "en-US": "The character to which this is attached has their Normal Attacks deal +1 DMG, and their Physical DMG is converted to Hydro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Tandoori Roast Chicken": {
         "names": {
@@ -5140,8 +5092,7 @@
                 "zh-CN": "本回合中，所有我方角色下一次「元素战技」造成的伤害+2。（每回合每个角色最多食用1次「料理」）",
                 "en-US": "During this Round, all your characters' next Elemental Skills deal +2 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/The Shrine's Sacred Shade": {
         "names": {
@@ -5153,8 +5104,7 @@
                 "zh-CN": "本回合中，我方角色下一次「元素战技」少花费2个元素骰。",
                 "en-US": "During this round, the next Yakan Evocation: Sesshou Sakura used by the character to which this is attached will cost 2 less Elemental Dice."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/The Wolf Within": {
         "names": {
@@ -5179,8 +5129,7 @@
                 "zh-CN": "本角色将在下次行动时，直接使用技能：踏潮。\n准备技能期间：提供2点护盾，保护所附属角色。",
                 "en-US": "The next time this character acts, they will immediately use the Skill Wavestrider. While preparing this Skill: Grant 2 Shield points to the character to which this is attached."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Unmovable Mountain": {
         "names": {
@@ -5192,8 +5141,7 @@
                 "zh-CN": "提供2点护盾，保护所附属的角色。",
                 "en-US": "Provides 2 Shield to protect the equipped character."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Vermillion Hereafter": {
         "names": {
@@ -5205,8 +5153,7 @@
                 "zh-CN": "角色使用「普通攻击」或装备「天赋」时：少花费1个元素骰。（每回合1次）角色被切换为「出战角色]后：本回合中，角色「普通攻击」造成的伤害+1。\n（角色最多装备1件「圣遗物」）",
                 "en-US": "During this Round, character deals +1 Normal Attack DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Vijnana Suffusion": {
         "names": {
@@ -5218,8 +5165,7 @@
                 "zh-CN": "所附属角色进行重击时：造成的物理伤害变为草元素伤害，并且会在技能结算后召唤藏蕴花矢。",
                 "en-US": "When the character to which this is attached to uses a Charged Attack: Their Physical DMG dealt will be converted to Dendro DMG and after skill DMG is finalized, summon 1 Clusterbloom Arrow."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Windfavored": {
         "names": {
@@ -5231,8 +5177,7 @@
                 "zh-CN": "所附属角色进行「普通攻击」时：造成的伤害+2；如果敌方存在后台角色，则此技能改为对下一个敌方后台角色造成伤害。\n可用次数：2",
                 "en-US": "When the character to which this is attached performs a Normal Attack: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby instead."
             }
-        },
-        "image_path": ""
+        }
     },
     "CHARACTER_STATUS/Yaksha's Mask": {
         "names": {
@@ -13473,6 +13418,10 @@
             "4.0": {
                 "zh-CN": "投掷阶段：2个元素骰初始总是投出我方出战角色类型的元素。",
                 "en-US": "Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to match the Elemental Type of your active character."
+            },
+            "4.5": {
+                "zh-CN": "投掷阶段：2个元素骰初始总是投出我方出战角色类型的元素。\n行动阶段开始时：如果我方手牌数量不多于3，则弃置此牌，生成1个万能元素。",
+                "en-US": "Roll Phase: 2 initial Elemental Dice will be of the same Elemental type as your active character.\nWhen Action Phase begins: If you have no more than 3 cards in your Hand, discard this card and create 1 Omni Element."
             }
         },
         "id": 321003,
@@ -13494,6 +13443,17 @@
                 "elemental_dice_number": 0,
                 "elemental_dice_color": null,
                 "same_dice_number": 1,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            },
+            "4.5": {
+                "label": 10,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 0,
                 "any_dice_number": 0,
                 "omni_dice_number": 0,
                 "charge": 0,
@@ -13580,6 +13540,10 @@
             "3.3": {
                 "zh-CN": "入场时：选择任意元素骰重投。投掷阶段：获得额外一次重投机会。",
                 "en-US": "When played: Select any Elemental Dice to reroll. Roll Phase: Gain another chance to reroll."
+            },
+            "4.5": {
+                "zh-CN": "入场时：选择任意元素骰重投。投掷阶段：获得额外一次重投机会。",
+                "en-US": "When played: Select any Elemental Dice to reroll. Roll Phase: Gain another chance to reroll."
             }
         },
         "id": 321002,
@@ -13590,6 +13554,17 @@
                 "elemental_dice_number": 0,
                 "elemental_dice_color": null,
                 "same_dice_number": 1,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            },
+            "4.5": {
+                "label": 10,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 0,
                 "any_dice_number": 0,
                 "omni_dice_number": 0,
                 "charge": 0,
@@ -16234,8 +16209,7 @@
                 "zh-CN": "我方已有角色装备「武器」或「圣遗物」时，才能打出：本回合中，我方下次打出「武器」或「圣遗物」装备时少花费2个元素骰。（整局游戏只能打出一张「秘传在一场对局中，每位牌手只能使用一张「秘传」卡牌。「秘传」卡牌一定在你的起始手牌中。（当牌组中的「秘传」卡牌数量大于起始手牌数时，秘传卡牌将随机出现在起始手牌中。）」卡牌：这张牌一定在你的起始手牌中）",
                 "en-US": "You must have a character who has already equipped a Weapon or Artifact: The next time you play a Weapon or Artifact card in this Round: Spend 2 less Elemental Dice."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Aurous Blaze": {
         "names": {
@@ -16260,8 +16234,7 @@
                 "zh-CN": "为我方出战角色提供1点护盾",
                 "en-US": "Grants 1 Shield point for your active character."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Catalyzing Field": {
         "names": {
@@ -16290,8 +16263,7 @@
                 "zh-CN": "我方下次执行「切换角色」行动时：少花费1个元素骰。",
                 "en-US": "The next time you perform \"Switch Character\": Spend 1 less Elemental Die."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Chonghua's Frost Field_talent": {
         "names": {
@@ -16303,8 +16275,7 @@
                 "zh-CN": "我方单手剑、双手剑或长柄武器角色造成的物理伤害变为冰元素伤害，并使我方单手剑、双手剑或长柄武器角色的普通攻击伤害+1。\n持续回合：2",
                 "en-US": "Your Sword, Claymore, and Polearm-wielding characters' Physical DMG is converted to Cryo DMG. And your Sword, Claymore, and Polearm-wielding character's Normal Attacks +1 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Chonghua's Frost Field": {
         "names": {
@@ -16316,8 +16287,7 @@
                 "zh-CN": "我方单手剑、双手剑或长柄武器角色造成的物理伤害变为冰元素伤害。\n持续回合：2",
                 "en-US": "Your Sword, Claymore, and Polearm-wielding characters' Physical DMG is converted to Cryo DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Crystallize": {
         "names": {
@@ -16329,8 +16299,7 @@
                 "zh-CN": "为我方出战角色提供1点护盾。（可叠加到2点）",
                 "en-US": "Grants 1 Shield point to your active character. (Can stack. Max 2 Points.)"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Dendro Core": {
         "names": {
@@ -16355,8 +16324,7 @@
                 "zh-CN": "本回合中，我方角色下一次造成岩元素伤害后：如果我方存在提供「护盾」的出战状态，则为一个此类出战状态补充3点「护盾」。（牌组包含至少2个岩元素角色，才能加入牌组）",
                 "en-US": "During this round, after your character deals Geo DMG next time: Should there be any Combat Status on your side that provides Shield, grant one such Status with 3 Shield points."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Elemental Resonance: Sprawling Greenery": {
         "names": {
@@ -16368,8 +16336,7 @@
                 "zh-CN": "本回合中，我方下一次引发元素反应时，造成的伤害+2。使我方场上的燃烧烈焰、草原核、和激化领域「可用次数」+1。（牌组包含至少2个草元素角色，才能加入牌组）",
                 "en-US": "During this round, the next Elemental Reaction you trigger deals +2 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Fatui Ambusher: Cryo Cicin Mage": {
         "names": {
@@ -16433,8 +16400,7 @@
                 "zh-CN": "当此召唤物在场且迪希雅在我方后台，我方出战角色受到伤害时：抵消1点伤害；然后，如果迪希雅生命值至少为7，则对其造成1点穿透伤害。（每回合1次）",
                 "en-US": "When this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage: Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 Piercing DMG to her (once per round)."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Floral Sidewinder": {
         "names": {
@@ -16446,8 +16412,7 @@
                 "zh-CN": "我方角色的技能引发草元素相关反应后：造成1点草元素伤害。",
                 "en-US": "during this Round, when your characters' Skills trigger Dendro-Related Reactions: Deal 1 Dendro DMG. (Once per Round)"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Flowing Cicin Shield": {
         "names": {
@@ -16459,8 +16424,7 @@
                 "zh-CN": "为我方出战角色提供1点护盾。\n创建时：如果我方场上存在冰萤，则额外提供其可用次数的护盾。（最多额外提供3点护盾）",
                 "en-US": "Provides 1 Shield point for your active character. When created: If you have Cryo Cicins on the field, additionally increase Shield by the amount of Usage(s) it has. (Adds a maximum of 3 additional Shield)"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Fortune-Preserving Talisman": {
         "names": {
@@ -16485,8 +16449,7 @@
                 "zh-CN": "本回合中，轮到我方行动期间有对方角色被击倒时：本次行动结束后，我方可以再连续行动一次。可用次数：1整局游戏只能打出一张「秘传」卡牌；这张牌一定在你的起始手牌中)",
                 "en-US": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends. Usage(s): 1 "
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Full Plate": {
         "names": {
@@ -16498,8 +16461,7 @@
                 "zh-CN": "为我方出战角色提供2点护盾。此护盾耗尽前，我方受到的物理伤害减半。（向上取整）",
                 "en-US": "Grants 2 Shield points to your active character. Before this Shield is fully consumed, the Physical DMG you take is halved. (The figure will be rounded up)"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Golden Chalice's Bounty": {
         "names": {
@@ -16524,8 +16486,7 @@
                 "zh-CN": "本回合有我方角色被击倒，才能打出：生成1个万能元素，我方当前出战角色获得1个充能。（每回合中，最多只能打出1张「本大爷还没有输！」。）",
                 "en-US": "You cannot play \"I Haven't Lost Yet!\" again this round."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Ice Lotus": {
         "names": {
@@ -16537,8 +16498,7 @@
                 "zh-CN": "我方出战角色受到伤害时：抵消1点伤害。\n可用次数：2",
                 "en-US": "When your active character receives DMG: Decreases DMG taken by 1."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Icicle": {
         "names": {
@@ -16563,8 +16523,7 @@
                 "zh-CN": "我方角色造成的冰元素伤害+1。（包括角色引发的冰元素扩散的伤害）\n可用次数：3",
                 "en-US": "Your character deals 1 increased Cryo DMG (Includes the DMG triggered by Cryo-infused Swirl reactions)"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Illusory Bubble": {
         "names": {
@@ -16615,8 +16574,7 @@
                 "zh-CN": "我方出战角色受到至少为2的伤害时：抵消1点伤害。\n可用次数：2",
                 "en-US": "When your active character receives at least 2 DMG: Decrease DMG taken by 1."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Jade Shield": {
         "names": {
@@ -16628,8 +16586,7 @@
                 "zh-CN": "为我方出战角色提供2点护盾。",
                 "en-US": "Grants 2 Shield points to your active character."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Leave It to Me!": {
         "names": {
@@ -16641,8 +16598,7 @@
                 "zh-CN": "我方下次执行「切换角色」行动时：将此次切换视为「快速行动」而非「战斗行动」。",
                 "en-US": "The next time you perform \"Switch Character\": The switch will be considered a Fast Action instead of a Combat Action."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Lyresong": {
         "names": {
@@ -16666,8 +16622,7 @@
                 "zh-CN": "我方角色造成的伤害+1。\n持续回合：2",
                 "en-US": "Your character deals +1 DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Pankration!": {
         "names": {
@@ -16680,7 +16635,6 @@
                 "en-US": "After a player announces the end of their Round first, the other player, who has yet to announce the end of their Round, draws 2 cards."
             }
         },
-        "image_path": "",
         "cost": {
             "4.1": {
                 "label": 0,
@@ -16705,8 +16659,7 @@
                 "zh-CN": "使我方角色和召唤物所造成的冰元素伤害+1。\n可用次数：2",
                 "en-US": "your Characters and Summons will deal +1 DMG for Cryo DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Poetics of Fuubutsu: Electro": {
         "names": {
@@ -16718,8 +16671,7 @@
                 "zh-CN": "使我方角色和召唤物所造成的雷元素伤害+1。\n可用次数：2",
                 "en-US": "your Characters and Summons will deal +1 DMG for Electro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Poetics of Fuubutsu: Hydro": {
         "names": {
@@ -16731,8 +16683,7 @@
                 "zh-CN": "使我方角色和召唤物所造成的水元素伤害+1。\n可用次数：2",
                 "en-US": "your Characters and Summons will deal +1 DMG for Hydro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Poetics of Fuubutsu: Pyro": {
         "names": {
@@ -16744,8 +16695,7 @@
                 "zh-CN": "使我方角色和召唤物所造成的火元素伤害+1。\n可用次数：2",
                 "en-US": "your Characters and Summons will deal +1 DMG for Pyro DMG."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Prayer of the Crimson Crown": {
         "names": {
@@ -16800,8 +16750,7 @@
                 "zh-CN": "我方出战角色受到至少为3的伤害时：抵消1点伤害。\n可用次数：2",
                 "en-US": "When your active character receives at least 3 DMG: Decrease DMG taken by 1."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Rain Sword": {
         "names": {
@@ -16817,8 +16766,7 @@
                 "zh-CN": "我方出战角色受到至少为3的伤害时：抵消1点伤害。\n可用次数：2",
                 "en-US": "When your active character receives at least 3 DMG: Decrease DMG taken by 1."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Rainbow Bladework": {
         "names": {
@@ -16847,8 +16795,7 @@
                 "zh-CN": "为我方出战角色提供1点护盾。（可叠加）",
                 "en-US": "Grants 1 Shield point to defend your active character. (Can stack. Max 2 Points.)"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Revive on cooldown": {
         "names": {
@@ -16860,8 +16807,7 @@
                 "zh-CN": "本回合不能再使用复活「料理」事件牌。",
                 "en-US": "You cannot revive any character with food this round."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Rhythm of the Great Dream": {
         "names": {
@@ -16873,8 +16819,7 @@
                 "zh-CN": "我方下次打出「武器」或「圣遗物」手牌时：少花费1个元素骰。",
                 "en-US": "The next time you play a Weapon or Artifact from your hand: Spend 1 less Elemental Die."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Seamless Shield": {
         "names": {
@@ -16928,8 +16873,7 @@
                 "zh-CN": "下回合行动阶段开始时：生成3点万能元素，抓一张牌。",
                 "en-US": "When the Action Phase of the next Round begins: Create 3 Omni Element, draw a card."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Stormzone_talent": {
         "names": {
@@ -16941,8 +16885,7 @@
                 "zh-CN": "我方执行「切换角色」时：少花费1个元素骰。风域触发后，本回合中我方角色下次「普通攻击」少花费1个无色元素。\n可用次数：2",
                 "en-US": "When you perform \"Switch Character\": Spend 1 less Elemental Die. After this effect is triggered, your next Normal Attack this round will cost 1 less Unaligned Element. Usage(s): 2"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Stormzone": {
         "names": {
@@ -16954,8 +16897,7 @@
                 "zh-CN": "我方执行「切换角色」时：少花费1个元素骰。\n可用次数：2",
                 "en-US": "When you perform \"Switch Character\": Spend 1 less Elemental Die. Usage(s): 2"
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Tenko Thunderbolts": {
         "names": {
@@ -16993,8 +16935,7 @@
                 "zh-CN": "我方下一次使用技能后：将下一个我方后台角色切换到场上。",
                 "en-US": "The next time you use a Skill: Switch your next character in to be the active character."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Where Is the Unseen Razor?": {
         "names": {
@@ -17006,8 +16947,7 @@
                 "zh-CN": "将一个我方角色所装备的「武器」返回手牌。本回合中，我方下次打出「武器」手牌时：少花费2个元素骰。",
                 "en-US": "During this Round, the next time you play a Weapon card: Spend 2 less Elemental Dice."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Wind and Freedom": {
         "names": {
@@ -17027,8 +16967,7 @@
                 "zh-CN": "本回合中，我方使用技能后：将下一个我方后台角色切换到场上。（牌组包含至少2个「蒙德」角色，才能加入牌组）",
                 "en-US": "The next time you use a Skill: Switch your next character in to be the active character."
             }
-        },
-        "image_path": ""
+        }
     },
     "TEAM_STATUS/Winds of Harmony": {
         "names": {
@@ -17040,8 +16979,7 @@
                 "zh-CN": "本回合中，我方角色下一次普通攻击少花费1无色元素。",
                 "en-US": "During this round, your character's next Normal Attack costs 1 less Unaligned Element."
             }
-        },
-        "image_path": ""
+        }
     },
     "WEAPON/A Thousand Floating Dreams": {
         "names": {
@@ -18004,6 +17942,10 @@
             "4.3": {
                 "en-US": "When played: generate 1 Die of the same Element as the attached character. If you have 3 different Elemental Types in your party, generate 1 Omni Element in addition to this.\nWhen the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG: Draw a card. (Twice per Round)\n(A character can equip a maximum of 1 Artifact)",
                 "zh-CN": "入场时：生成1个所附属角色类型的元素骰。如果我方队伍中存在3种不同元素类型的角色，则额外生成1个万能元素。\n所附属角色为出战角色期间，敌方受到元素反应伤害时：抓1张牌。（每回合至多2次）\n（角色最多装备1件「圣遗物」）"
+            },
+            "4.5": {
+                "en-US": "When played: generate 1 Die of the same Element as the attached character. If you have 3 different Elemental Types in your party, generate 2 Dice of the same Element as the attached character.\nWhen the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG: Draw a card. (Twice per Round)\n(A character can equip a maximum of 1 Artifact)",
+                "zh-CN": "入场时：生成1个所附属角色类型的元素骰。如果我方队伍中存在3种不同元素类型的角色，则生成2个所附属角色类型的元素骰。\n所附属角色为出战角色期间，敌方受到元素反应伤害时：抓1张牌。（每回合至多2次）\n（角色最多装备1件「圣遗物」）"
             }
         },
         "image_path": "cardface/Modify_Artifact_Chiwangtao.png",
@@ -18015,6 +17957,17 @@
                 "elemental_dice_color": null,
                 "same_dice_number": 0,
                 "any_dice_number": 3,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            },
+            "4.5": {
+                "label": 32802,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 3,
+                "any_dice_number": 0,
                 "omni_dice_number": 0,
                 "charge": 0,
                 "arcane_legend": false,
@@ -19233,7 +19186,8 @@
                 "en-US": "End Phase: Deal 1 Pyro DMG.\nUsage(s): 2\n\nWhen entering play, when the Action Phase starts: Equips Pyro Scorpion: Guardian Stance to your Eremite Scorching Loremaster. (When Spirit of Omen: Pyro Scorpion is in play, the character will take 1 less DMG, once per Round.)",
                 "zh-CN": "结束阶段：造成1点火元素伤害。\n可用次数：2\n\n入场时和行动阶段开始：使我方镀金旅团·炽沙叙事人附属炎之魔蝎·守势。（厄灵·炎之魔蝎在场时每回合1次，使角色受到的伤害-1。）"
             }
-        }
+        },
+        "image_path": "cardface/Summon_Muscleman.png"
     },
     "SUMMON/Spirit of Omen: Pyro Scorpion_talent": {
         "names": {
@@ -19245,7 +19199,8 @@
                 "en-US": "End Phase: Deal 1 Pyro DMG; in Rounds when Eremite Scorching Loremaster has used a Normal Attack or Elemental Skill, the damage dealt +1.\nUsage(s): 2\n\nWhen entering play, when the Action Phase starts: Equips Pyro Scorpion: Guardian Stance to your Eremite Scorching Loremaster. (When Spirit of Omen: Pyro Scorpion is in play, the character will take 1 less DMG, twice per Round.)",
                 "zh-CN": "结束阶段：造成1点火元素伤害；在镀金旅团·炽沙叙事人使用过「普通攻击」或「元素战技」的回合中，造成的伤害+1。\n可用次数：2\n\n入场时和行动阶段开始：使我方镀金旅团·炽沙叙事人附属炎之魔蝎·守势。（厄灵·炎之魔蝎在场时每回合2次，使角色受到的伤害-1。）"
             }
-        }
+        },
+        "image_path": "cardface/Summon_Muscleman.png"
     },
     "CHARACTER_STATUS/Pyro Scorpion: Guardian Stance": {
         "names": {
@@ -19435,7 +19390,8 @@
                 "en-US": "End Phase: Deal 1 Geo DMG. If your party has 2 Geo characters, create 1 Crystallize.\nUsage(s): 2",
                 "zh-CN": "结束阶段：造成1点岩元素伤害；如果队伍中存在2名岩元素角色，则生成结晶。\n可用次数：2"
             }
-        }
+        },
+        "image_path": "cardface/Summon_Gorou.png"
     },
     "TALENT_Gorou/Rushing Hound: Swift as the Wind": {
         "names": {
@@ -19588,7 +19544,8 @@
                 "en-US": "End Phase: Deal 1 Cryo DMG. If Shooting Star is in play, it will gain 1 Night Star.\nUsage(s): 2",
                 "zh-CN": "结束阶段：造成1点冰元素伤害。如果飞星在场，则使其累积1枚「晚星」。\n可用次数：2"
             }
-        }
+        },
+        "image_path": "cardface/Summon_Layla.png"
     },
     "TALENT_Layla/Light's Remit": {
         "names": {
@@ -21559,6 +21516,867 @@
                 "any_dice_number": 0,
                 "omni_dice_number": 0,
                 "charge": 2,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CARD/Controlled Directional Blast": {
+        "names": {
+            "en-US": "Controlled Directional Blast",
+            "zh-CN": "可控性去危害化式定向爆破"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Can only be played when there is a total of at least 4 cards in your opponent's Support Zone and Summons Zone: All Summons on both sides lose 1 Usage.",
+                "zh-CN": "对方支援区和召唤物区的卡牌数量总和至少为4时，才能打出：双方所有召唤物的可用次数-1。"
+            }
+        },
+        "image_path": "cardface/Event_Event_Kexueyuan.png",
+        "id": 332030,
+        "cost": {
+            "4.5": {
+                "label": 65538,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 1,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER_STATUS/Day of Resistance: Moment of Shattered Dreams": {
+        "names": {
+            "en-US": "Day of Resistance: Moment of Shattered Dreams",
+            "zh-CN": "抗争之日·碎梦之时"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "During this Round, this character takes -1 DMG. (Max 4 times)",
+                "zh-CN": "本回合中，角色受到的伤害-1。（最多生效4次）"
+            }
+        }
+    },
+    "ARCANE/Day of Resistance: Moment of Shattered Dreams": {
+        "names": {
+            "en-US": "Day of Resistance: Moment of Shattered Dreams",
+            "zh-CN": "抗争之日·碎梦之时"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "During this Round, your targeted character takes -1 DMG. (Max 4 times)\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                "zh-CN": "本回合中，目标我方角色受到的伤害-1。（最多生效4次）\n（整局游戏只能打出一张「秘传」卡牌；这张牌一定在你的起始手牌中）"
+            }
+        },
+        "image_path": "cardface/Event_Event_Fankang.png",
+        "id": 330007,
+        "cost": {
+            "4.5": {
+                "label": 66050,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": true,
+                "original_value": null
+            }
+        }
+    },
+    "TEAM_STATUS/Fortress of Meropide": {
+        "names": {
+            "en-US": "Fortress of Meropide",
+            "zh-CN": "梅洛彼得堡"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "1 Event Card played by you this Round will have no effect.",
+                "zh-CN": "本回合中我方打出的1张事件牌无效"
+            }
+        }
+    },
+    "SUPPORT/Fortress of Meropide": {
+        "names": {
+            "en-US": "Fortress of Meropide",
+            "zh-CN": "梅洛彼得堡"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "When your active character takes DMG or is healed: This card gains 1 \"Prohibition\" point. (Maximum 4 points)\nWhen Action Phase begins: If this card has accumulated 4 \"Prohibition\" points, then 4 points will be consumed and 1 Strictly Prohibited will be created in your opponent's playing field. (1 Event Card played by your opponent this Round will have no effect.)",
+                "zh-CN": "我方出战角色受到伤害或治疗后：此牌累积1点「禁令」。（最多累积到4点）\n行动阶段开始时：如果此牌已有4点「禁令」，则消耗4点，在对方场上生成严格禁令。（本回合中打出的1张事件牌无效）"
+            }
+        },
+        "image_path": "cardface/Assist_Location_BideBao.png",
+        "id": 321018,
+        "cost": {
+            "4.5": {
+                "label": 10,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 1,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "ARTIFACT/Golden Troupe's Reward": {
+        "names": {
+            "en-US": "Golden Troupe's Reward",
+            "zh-CN": "黄金剧团的奖赏"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "End Phase: If the character to which this is attached is on standby, this card gains 1 \"Recompense\" point. (Max 2 points)\nWhen you play a Talent card or a Character uses an Elemental Skill: For each \"Recompense\" point this card has, consume it to spend 1 less Elemental Die.\n(A character can equip a maximum of 1 Artifact)",
+                "zh-CN": "结束阶段：如果所附属角色在后台，则此牌累积1点「报酬」。（最多累积2点）\n对角色打出「天赋」或角色使用「元素战技」时：此牌每有1点「报酬」，就将其消耗，以少花费1个元素骰。\n（角色最多装备1件「圣遗物」）"
+            }
+        },
+        "image_path": "cardface/Modify_Artifact_HuangjinjutuanXiaojian.png",
+        "id": 312025,
+        "cost": {
+            "4.5": {
+                "label": 32802,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SUPPORT/Lumenstone Adjuvant": {
+        "names": {
+            "en-US": "Lumenstone Adjuvant",
+            "zh-CN": "流明石触媒"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "After you play an Action Card: If, while this card is on the field, you have already played 3 Action Cards this Round, draw 1 card and create 1 Omni Die. (Once per Round)\nUsage(s): 3",
+                "zh-CN": "我方打出行动牌后：如果此牌在场期间本回合中我方已打出3张行动牌，则抓1张牌并生成1个万能元素骰。（每回合1次）\n可用次数：3"
+            }
+        },
+        "image_path": "cardface/Assist_Prop_Liumingshi.png",
+        "id": 323007,
+        "cost": {
+            "4.5": {
+                "label": 18,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 2,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER_STATUS/Tome of the Eternal Flow": {
+        "names": {
+            "en-US": "Tome of the Eternal Flow",
+            "zh-CN": "万世流涌大典"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "This character's next attack this Round deals +2 additional DMG.",
+                "zh-CN": "角色本回合中下次造成的伤害+2。"
+            }
+        }
+    },
+    "WEAPON/Tome of the Eternal Flow": {
+        "names": {
+            "en-US": "Tome of the Eternal Flow",
+            "zh-CN": "万世流涌大典"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "The character deals +1 DMG.\nAfter this character takes DMG or is healed: If this character has already been damaged or healed 2 times this Round, then this character's next attack this Round deals +2 additional DMG. (Once per Round)\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                "zh-CN": "角色造成的伤害+1。\n角色受到伤害或治疗后：如果本回合已受到伤害或治疗累计2次，则角色本回合中下次造成的伤害+2。（每回合1次）\n（「法器」角色才能装备。角色最多装备1件「武器」）"
+            }
+        },
+        "image_path": "cardface/Modify_Weapon_Wanshiliuyongdadian.png",
+        "id": 311108,
+        "cost": {
+            "4.5": {
+                "label": 32834,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 3,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER/Charlotte": {
+        "names": {
+            "en-US": "Charlotte",
+            "zh-CN": "夏洛蒂"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "",
+                "zh-CN": ""
+            }
+        },
+        "image_path": "cardface/Char_Avatar_Charlotte.png",
+        "id": 1110
+    },
+    "SKILL_Charlotte_NORMAL_ATTACK/Cool-Color Capture": {
+        "names": {
+            "en-US": "Cool-Color Capture",
+            "zh-CN": "冷色摄影律"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 1 Cryo DMG.",
+                "zh-CN": "造成1点冰元素伤害。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 1024,
+                "elemental_dice_number": 1,
+                "elemental_dice_color": "CRYO",
+                "same_dice_number": 0,
+                "any_dice_number": 2,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SKILL_Charlotte_ELEMENTAL_SKILL/Framing: Freezing Point Composition": {
+        "names": {
+            "en-US": "Framing: Freezing Point Composition",
+            "zh-CN": "取景·冰点构图法"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 1 Cryo DMG. Attach Snappy Silhouette to the target.",
+                "zh-CN": "造成1点冰元素伤害，目标附属瞬时剪影。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 2048,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "CRYO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER_STATUS/Snappy Silhouette": {
+        "names": {
+            "en-US": "Snappy Silhouette",
+            "zh-CN": "瞬时剪影"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "End Phase: Deal 1 Cryo DMG to the character(s) to which this is attached. If only 1 Usage(s) is remaining and the attached character is affected by Cryo, this instance of DMG +1.\nUsage(s): 2",
+                "zh-CN": "结束阶段：对所附属角色造成1点冰元素伤害；如果可用次数仅剩余1且所附属角色具有冰元素附着，则此伤害+1。\n可用次数：2"
+            }
+        }
+    },
+    "SKILL_Charlotte_ELEMENTAL_BURST/Still Photo: Comprehensive Confirmation": {
+        "names": {
+            "en-US": "Still Photo: Comprehensive Confirmation",
+            "zh-CN": "定格·全方位确证"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 1 Cryo DMG, heals all your characters for 1 HP, summons 1 Newsflash Field.",
+                "zh-CN": "造成1点冰元素伤害，治疗我方所有角色1点，召唤临事场域。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 4096,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "CRYO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 2,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SUMMON/Newsflash Field": {
+        "names": {
+            "en-US": "Newsflash Field",
+            "zh-CN": "临事场域"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "End Phase: Deal 1 Cryo DMG, heal your active character for 1 HP.\nUsage(s): 2",
+                "zh-CN": "结束阶段：造成1点冰元素伤害，治疗我方出战角色1点。\n可用次数：2"
+            }
+        },
+        "image_path": "cardface/Summon_Charlotte.png"
+    },
+    "TALENT_Charlotte/A Summation of Interest": {
+        "names": {
+            "en-US": "A Summation of Interest",
+            "zh-CN": "以有趣相关为要义"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Combat Action: When your active character is Charlotte, equip this card.\nAfter Charlotte equips this card, immediately use Framing: Freezing Point Composition once.\nWhen your Charlotte, who has this card equipped, is on the field, and after any of your characters uses a Normal Attack: If your opponent has a character on the field with Snappy Silhouette attached, heal your active character for 2 HP. (Once per Round)\n(You must have Charlotte in your deck to add this card to your deck.)",
+                "zh-CN": "战斗行动：我方出战角色为夏洛蒂时，装备此牌。\n夏洛蒂装备此牌后，立刻使用一次取景·冰点构图法。\n装备有此牌的夏洛蒂在场时，我方角色进行普通攻击后：如果对方场上有角色附属有瞬时剪影，则治疗我方出战角色2点。（每回合1次）\n（牌组中包含夏洛蒂，才能加入牌组）"
+            }
+        },
+        "image_path": "cardface/Modify_Talent_Charlotte.png",
+        "id": 211101,
+        "cost": {
+            "4.5": {
+                "label": 32898,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "CRYO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER/Fatui Electro Cicin Mage": {
+        "names": {
+            "en-US": "Fatui Electro Cicin Mage",
+            "zh-CN": "愚人众·雷萤术士"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "",
+                "zh-CN": ""
+            }
+        },
+        "image_path": "cardface/Char_Monster_FatuusSummoner.png",
+        "id": 2404
+    },
+    "SKILL_Fatui Electro Cicin Mage_NORMAL_ATTACK/Hurtling Bolts": {
+        "names": {
+            "en-US": "Hurtling Bolts",
+            "zh-CN": "轰闪落雷"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 1 Electro DMG.",
+                "zh-CN": "造成1点雷元素伤害。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 1024,
+                "elemental_dice_number": 1,
+                "elemental_dice_color": "ELECTRO",
+                "same_dice_number": 0,
+                "any_dice_number": 2,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SKILL_Fatui Electro Cicin Mage_ELEMENTAL_SKILL/Misty Call": {
+        "names": {
+            "en-US": "Misty Call",
+            "zh-CN": "雾虚之召"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Summons 1 Electro Cicin.",
+                "zh-CN": "召唤雷萤。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 2048,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "ELECTRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "TEAM_STATUS/Electro Cicin": {
+        "names": {
+            "en-US": "Electro Cicin",
+            "zh-CN": "雷萤"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "After you play a total of 3 Action Cards: Your opponent's Electro Cicin gains 1 Usage(s).",
+                "zh-CN": "我方累计打出3张行动牌后：敌方雷萤可用次数+1。"
+            }
+        }
+    },
+    "SUMMON/Electro Cicin": {
+        "names": {
+            "en-US": "Electro Cicin",
+            "zh-CN": "雷萤"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "End Phase: Deal 1 Electro DMG.\nUsage(s): 3\n\nAfter your opponent plays a total of 3 Action Cards: This card gains 1 Usage(s). (Max 3 stacks)\nAfter Fatui Electro Cicin Mage takes Elemental Reaction DMG: This card loses 1 Usage(s).",
+                "zh-CN": "结束阶段：造成1点雷元素伤害。\n可用次数：3\n\n敌方累计打出3张行动牌后：此牌可用次数+1。（最多叠加到3）\n愚人众·雷萤术士受到元素反应伤害后：此牌可用次数-1。"
+            }
+        },
+        "image_path": "cardface/Summon_FatuusSummoner.png"
+    },
+    "SKILL_Fatui Electro Cicin Mage_ELEMENTAL_BURST/Thundering Shield": {
+        "names": {
+            "en-US": "Thundering Shield",
+            "zh-CN": "霆雷之护"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 1 Electro DMG, applies Electro Application to this character, creates 1 Electro Cicin Shield and prepares Surging Thunder.",
+                "zh-CN": "造成1点雷元素伤害，本角色附着雷元素，生成雷萤护罩并准备技能霆电迸发。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 4096,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "ELECTRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 2,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "TEAM_STATUS/Electro Cicin Shield": {
+        "names": {
+            "en-US": "Electro Cicin Shield",
+            "zh-CN": "雷萤护罩"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Shield\nProvides 1 Shield point for your active character.\nWhen created: If you have Electro Cicin on the field, additionally increase Shield by the amount of Usage(s) it has. (Adds a maximum of 3 additional Shield)",
+                "zh-CN": "护盾\n为我方出战角色提供1点护盾。\n创建时：如果我方场上存在雷萤，则额外提供其可用次数的护盾。（最多额外提供3点护盾）"
+            }
+        }
+    },
+    "CHARACTER_STATUS/Surging Thunder": {
+        "names": {
+            "en-US": "Surging Thunder",
+            "zh-CN": "霆电迸发"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Elemental Burst\n(Prepare for 1 turn)\nDeals 2 Electro DMG.",
+                "zh-CN": "元素爆发\n（需准备1个行动轮）\n造成2点雷元素伤害。"
+            }
+        }
+    },
+    "SKILL_Fatui Electro Cicin Mage_ELEMENTAL_BURST/Surging Thunder": {
+        "names": {
+            "en-US": "Surging Thunder",
+            "zh-CN": "霆电迸发"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "(Prepare for 1 turn)\nDeals 2 Electro DMG.",
+                "zh-CN": "（需准备1个行动轮）\n造成2点雷元素伤害。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 4096,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "TALENT_Fatui Electro Cicin Mage/Electro Cicin's Gleam": {
+        "names": {
+            "en-US": "Electro Cicin's Gleam",
+            "zh-CN": "雷萤浮闪"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Combat Action: When your active character is Fatui Electro Cicin Mage, equip this card.\nAfter Fatui Electro Cicin Mage equips this card, immediately use Misty Call once.\nIf your Fatui Electro Cicin Mage who has this card equipped is on the field, before you choose an action: If Electro Cicin's Usage(s) is at least 3, then Electro Cicin will immediately deal 1 Electro DMG. (Usage(s) will be consumed, once per Round)\n(You must have Fatui Electro Cicin Mage in your deck to add this card to your deck.)",
+                "zh-CN": "战斗行动：我方出战角色为愚人众·雷萤术士时，装备此牌。\n愚人众·雷萤术士装备此牌后，立刻使用一次雾虚之召。\n装备有此牌的愚人众·雷萤术士在场时，我方选择行动前：如果雷萤的可用次数至少为3，则雷萤立刻造成1点雷元素伤害。（需消耗可用次数，每回合1次）\n（牌组中包含愚人众·雷萤术士，才能加入牌组）"
+            }
+        },
+        "image_path": "cardface/Modify_Talent_FatuusSummoner.png",
+        "id": 224041,
+        "cost": {
+            "4.5": {
+                "label": 32898,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "ELECTRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER/Kirara": {
+        "names": {
+            "en-US": "Kirara",
+            "zh-CN": "绮良良"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "",
+                "zh-CN": ""
+            }
+        },
+        "image_path": "cardface/Char_Avatar_Momoka.png",
+        "id": 1707
+    },
+    "SKILL_Kirara_NORMAL_ATTACK/Boxcutter": {
+        "names": {
+            "en-US": "Boxcutter",
+            "zh-CN": "箱纸切削术"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 2 Physical DMG.",
+                "zh-CN": "造成2点物理伤害。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 1024,
+                "elemental_dice_number": 1,
+                "elemental_dice_color": "DENDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 2,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SKILL_Kirara_ELEMENTAL_SKILL/Meow-teor Kick": {
+        "names": {
+            "en-US": "Meow-teor Kick",
+            "zh-CN": "呜喵町飞足"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Creates 1 Urgent Neko Parcel and Shield of Safe Transport.",
+                "zh-CN": "生成猫箱急件和安全运输护盾。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 2048,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "DENDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "TEAM_STATUS/Urgent Neko Parcel": {
+        "names": {
+            "en-US": "Urgent Neko Parcel",
+            "zh-CN": "猫箱急件"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "When Kirara is your active character, after you switch characters: Deal 1 Dendro DMG and draw 1 card.\nUsage(s): 1 (Can stack. Max 2 stacks.)",
+                "zh-CN": "绮良良为出战角色时，我方切换角色后：造成1点草元素伤害，抓1张牌。\n可用次数：1（可叠加，最多叠加到2次）"
+            }
+        },
+        "image_path": "status/Momoka_S.png"
+    },
+    "TEAM_STATUS/Shield of Safe Transport": {
+        "names": {
+            "en-US": "Shield of Safe Transport",
+            "zh-CN": "安全运输护盾"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Shield\nGrants 2 Shield points to your active character.",
+                "zh-CN": "护盾\n为我方出战角色提供2点护盾。"
+            }
+        }
+    },
+    "SKILL_Kirara_ELEMENTAL_BURST/Secret Art: Surprise Dispatch": {
+        "names": {
+            "en-US": "Secret Art: Surprise Dispatch",
+            "zh-CN": "秘法·惊喜特派"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 4 Dendro DMG, creates 1 Cat Grass Cardamom on the opponent's side of the field.",
+                "zh-CN": "造成4点草元素伤害，在敌方场上生成猫草豆蔻。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 4096,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "DENDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 2,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "TEAM_STATUS/Cat Grass Cardamom": {
+        "names": {
+            "en-US": "Cat Grass Cardamom",
+            "zh-CN": "猫草豆蔻"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "After the side of the field that this card is on has played 2 Action Cards: Deal 1 Dendro DMG to the active character on that side.\nUsage(s): 2",
+                "zh-CN": "所在阵营打出2张行动牌后：对所在阵营的出战角色造成1点草元素伤害。\n可用次数：2"
+            }
+        },
+        "image_path": "status/Debuff_Momoka_E.png"
+    },
+    "TALENT_Kirara/Countless Sights to See": {
+        "names": {
+            "en-US": "Countless Sights to See",
+            "zh-CN": "沿途百景会心"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Combat Action: When your active character is Kirara, equip this card.\nAfter Kirara equips this card, immediately use Meow-teor Kick once.\nWhen your Kirara who has this card equipped is the active character, spend 1 less Elemental Die when switching characters. (Once per Round)\n(You must have Kirara in your deck to add this card to your deck.)",
+                "zh-CN": "战斗行动：我方出战角色为绮良良时，装备此牌。\n绮良良装备此牌后，立刻使用一次呜喵町飞足。\n装备有此牌的绮良良为出战角色，我方进行「切换角色」行动时：少花费1个元素骰。（每回合1次）\n（牌组中包含绮良良，才能加入牌组）"
+            }
+        },
+        "image_path": "cardface/Modify_Talent_Momoka.png",
+        "id": 217071,
+        "cost": {
+            "4.5": {
+                "label": 32898,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "DENDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER/Neuvillette": {
+        "names": {
+            "en-US": "Neuvillette",
+            "zh-CN": "那维莱特"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "",
+                "zh-CN": ""
+            }
+        },
+        "image_path": "cardface/Char_Avatar_Neuvillette.png",
+        "id": 1210
+    },
+    "CHARACTER_STATUS/Heir to the Ancient Sea's Authority": {
+        "names": {
+            "en-US": "Heir to the Ancient Sea's Authority",
+            "zh-CN": "遗龙之荣"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "This character deals +1 DMG for the next 2 instances.",
+                "zh-CN": "角色接下来2次造成的伤害+1。"
+            }
+        }
+    },
+    "TALENT_Neuvillette/Heir to the Ancient Sea's Authority": {
+        "names": {
+            "en-US": "Heir to the Ancient Sea's Authority",
+            "zh-CN": "古海孑遗的权柄"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Combat Action: When your active character is Neuvillette, equip this card.\nAfter Neuvillette equips this card, immediately use As Water Seeks Equilibrium once.\nAfter your characters trigger Hydro-Related Reactions: Neuvillette, who has this card equipped, deals +1 DMG for the next 2 instances.\n(You must have Neuvillette in your deck to add this card to your deck.)",
+                "zh-CN": "战斗行动：我方出战角色为那维莱特时，装备此牌。\n那维莱特装备此牌后，立刻使用一次如水从平。\n我方角色引发水元素相关反应后：装备有此牌的那维莱特接下来2次造成的伤害+1。\n（牌组中包含那维莱特，才能加入牌组）"
+            }
+        },
+        "image_path": "cardface/Modify_Talent_Neuvillette.png",
+        "id": 212101,
+        "cost": {
+            "4.5": {
+                "label": 32898,
+                "elemental_dice_number": 1,
+                "elemental_dice_color": "HYDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 2,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SKILL_Neuvillette_NORMAL_ATTACK/As Water Seeks Equilibrium": {
+        "names": {
+            "en-US": "As Water Seeks Equilibrium",
+            "zh-CN": "如水从平"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 1 Hydro DMG.",
+                "zh-CN": "造成1点水元素伤害。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 1024,
+                "elemental_dice_number": 1,
+                "elemental_dice_color": "HYDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 2,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "SKILL_Neuvillette_ELEMENTAL_SKILL/O Tears, I Shall Repay": {
+        "names": {
+            "en-US": "O Tears, I Shall Repay",
+            "zh-CN": "泪水啊，我必偿还"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 2 Hydro DMG, creates 1 Sourcewater Droplet.",
+                "zh-CN": "造成2点水元素伤害，生成源水之滴。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 2048,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "HYDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "TEAM_STATUS/Sourcewater Droplet": {
+        "names": {
+            "en-US": "Sourcewater Droplet",
+            "zh-CN": "源水之滴"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "After Neuvillette uses a Normal Attack: Heals the character for 2 HP. After this, Prepare Skill|s1:prepares: Equitable Judgment.\nUsage(s): 1 (Can stack. Max 3 stacks.)",
+                "zh-CN": "那维莱特进行普通攻击后：治疗角色2点，然后角色准备技能：衡平推裁。\n可用次数：1（可叠加，最多叠加到3次）"
+            }
+        },
+        "image_path": "status/Neuvillette_S.png"
+    },
+    "SKILL_Neuvillette_ELEMENTAL_BURST/O Tides, I Have Returned": {
+        "names": {
+            "en-US": "O Tides, I Have Returned",
+            "zh-CN": "潮水啊，我已归来"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "Deals 2 Hydro DMG, deals 1 Piercing DMG to all opposing characters on standby, then creates a Sourcewater Droplet with 2 Usages.",
+                "zh-CN": "造成2点水元素伤害，对所有后台敌人造成1点穿透伤害，生成可用次数为2的源水之滴。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 4096,
+                "elemental_dice_number": 3,
+                "elemental_dice_color": "HYDRO",
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 2,
+                "arcane_legend": false,
+                "original_value": null
+            }
+        }
+    },
+    "CHARACTER_STATUS/Equitable Judgment": {
+        "names": {
+            "en-US": "Equitable Judgment",
+            "zh-CN": "衡平推裁"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "(Prepare for 1 turn)\nDeals 2 Hydro DMG. If character has at least 6 HP, then they deal 1 Piercing DMG to themselves and deal +1 DMG.",
+                "zh-CN": "（需准备1个行动轮）\n造成2点水元素伤害，如果生命值至少为6，则对自身造成1点穿透伤害使伤害+1。"
+            }
+        }
+    },
+    "SKILL_Neuvillette_NORMAL_ATTACK/Equitable Judgment": {
+        "names": {
+            "en-US": "Equitable Judgment",
+            "zh-CN": "衡平推裁"
+        },
+        "descs": {
+            "4.5": {
+                "en-US": "(Prepare for 1 turn)\nDeals 2 Hydro DMG. If character has at least 6 HP, then they deal 1 Piercing DMG to themselves and deal +1 DMG.",
+                "zh-CN": "（需准备1个行动轮）\n造成2点水元素伤害，如果生命值至少为6，则对自身造成1点穿透伤害使伤害+1。"
+            }
+        },
+        "cost": {
+            "4.5": {
+                "label": 1024,
+                "elemental_dice_number": 0,
+                "elemental_dice_color": null,
+                "same_dice_number": 0,
+                "any_dice_number": 0,
+                "omni_dice_number": 0,
+                "charge": 0,
                 "arcane_legend": false,
                 "original_value": null
             }
